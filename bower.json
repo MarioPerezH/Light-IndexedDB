@@ -1,0 +1,28 @@
+{
+  "name": "LightIndexedDB",
+  "homepage": "https://github.com/MarioPerezH/Light-IndexedDB",
+  "authors": [
+    "MarioPerezH <mario.perez.h@hotmail.com>"
+  ],
+  "description": "Implement Light IndexedDB",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "q": "latest",
+    "QUnit": "latest",
+    "requirejs": "latest"
+  }
+
+
+}
