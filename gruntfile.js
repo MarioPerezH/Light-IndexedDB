@@ -40,7 +40,7 @@ module.exports = function (grunt) {
       },
     },
     clean: {
-      js: ['<%= distFolder %>/*.js', '!<%= distFolder %>/*.min.js']
+      js: ['src/*.js', 'test/*.js', '<%= distFolder %>/*.js', '!<%= distFolder %>/*.min.js']
     },
     watch: {
       files: '**/*.ts',
