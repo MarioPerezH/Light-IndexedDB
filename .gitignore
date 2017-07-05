@@ -2,4 +2,6 @@ bower_components
 node_modules
 .vscode
 
-test/**/*.js
+*.js
+*.map
+npm-debug.log
